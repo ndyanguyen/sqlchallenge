@@ -11,7 +11,7 @@ SELECT * FROM employees LIMIT 10;
 SELECT first_name, last_name, hire_date
 FROM employees
 WHERE hire_date>'1985-12-31'
-	AND hire_date<'1987-01-01'
+AND hire_date<'1987-01-01'
 
 
 -- 3. List the manager of each department with the following information:  department number, department name, the manager's employee number, last name, first name.
